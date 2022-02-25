@@ -10,8 +10,9 @@
 	</parent>
 	<groupId>assignment</groupId>
 	<artifactId>assignment</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<name>assignment</name>
+	<packaging>jar</packaging>
 	<description>Demo project for Spring Boot microservice assignment</description>
 	<properties>
 		<java.version>1.8</java.version>
@@ -49,7 +50,7 @@
 			<version>2.6.1</version>
 		</dependency>
 	</dependencies>
-		<distributionManagement>
+	<distributionManagement>
 		<repository>
 			<id>repsy</id>
 			<name>My Private Maven Repository on Repsy</name>
@@ -60,6 +61,7 @@
 		<url>https://github.com/sidnepal2048</url>
 		<connection>scm:git:git@github.com:sidnepal2048/assignment.git</connection>
 	</scm>
+
 	<developers>
 		<developer>
 			<id>nepal.siddhartha</id>
@@ -71,10 +73,6 @@
 	</developers>
 	<build>
 		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
