@@ -48,10 +48,27 @@
 			<artifactId>springfox-swagger-ui</artifactId>
 			<version>2.6.1</version>
 		</dependency>
-
-
 	</dependencies>
-
+		<distributionManagement>
+		<repository>
+			<id>repsy</id>
+			<name>My Private Maven Repository on Repsy</name>
+			<url>https://repo.repsy.io/mvn/sidnepal1991/support-util</url>
+		</repository>
+	</distributionManagement>
+	<scm>
+		<url>https://github.com/sidnepal2048</url>
+		<connection>scm:git:git@github.com:sidnepal2048/support-util.git</connection>
+	</scm>
+	<developers>
+		<developer>
+			<id>nepal.siddhartha</id>
+			<name>Siddhartha Nepal</name>
+			<roles>
+				<role>Developer</role>
+			</roles>
+		</developer>
+	</developers>
 	<build>
 		<plugins>
 			<plugin>
